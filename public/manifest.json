@@ -1,0 +1,55 @@
+{
+  "name": "ozaib.ink - مدونة عربية",
+  "short_name": "ozaib.ink",
+  "description": "مدونة عربية في الفكر والأدب والتقنية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fafaf5",
+  "theme_color": "#1c1917",
+  "categories": ["news", "magazines", "education"],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "أحدث المقالات",
+      "url": "/#latest",
+      "description": "عرض أحدث المقالات"
+    },
+    {
+      "name": "بحث متقدم",
+      "url": "/#search",
+      "description": "البحث في المقالات"
+    },
+    {
+      "name": "لوحة التحكم",
+      "url": "/#admin",
+      "description": "الدخول للوحة التحكم"
+    }
+  ]
+}
